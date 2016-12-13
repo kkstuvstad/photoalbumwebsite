@@ -1,0 +1,26 @@
+{
+  "name": "kkstuvstadphotoswebsite",
+  "version": "1.0.0",
+  "description": "Website shows photos I've taken on my phone",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "handlebars views/partials/pic.handlebars -f public/todo-template.js",
+    "prestart": "npm run build",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkstuvstad/photoalbumwebsite.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/kkstuvstad/photoalbumwebsite/issues"
+  },
+  "homepage": "https://github.com/kkstuvstad/photoalbumwebsite#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0"
+  }
+}

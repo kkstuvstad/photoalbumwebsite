@@ -3,21 +3,21 @@
     "name": "Los Angeles",
     "notes": [
       {
-        "url":
+        "url": "http://astoriacolumn.org/wp-content/uploads/2014/05/column-panorama-860x350.jpg",
         "body": {
           "caption": "Long Beach, CA"
         }
       },
       {
-        "url":
+        "url": "http://astoriacolumn.org/wp-content/uploads/2014/05/column-panorama-860x350.jpg",
         "body": {
           "caption": "Santa Monica Pier"
         }
       },
       {
-        "url":
-        "body" : {
-          caption: "Pacific Park Ferris Wheel"
+        "url": "http://astoriacolumn.org/wp-content/uploads/2014/05/column-panorama-860x350.jpg",
+        "body": {
+          "caption": "Pacific Park Ferris Wheel"
         }
       },
     ]
@@ -27,33 +27,33 @@
     "name": "Oregon",
     "notes": [
       {
-        "url":
+        "url": "http://astoriacolumn.org/wp-content/uploads/2014/05/column-panorama-860x350.jpg",
         "body" : {
-          caption: "Multnomah Falls"
+          "caption": "Multnomah Falls"
         }
       },
       {
-        "url":
+        "url": "http://astoriacolumn.org/wp-content/uploads/2014/05/column-panorama-860x350.jpg",
         "body" : {
-          caption: "Astoria, Oregon"
+          "caption": "Astoria, Oregon"
         }
       },
       {
-        "url":
+        "url": "http://astoriacolumn.org/wp-content/uploads/2014/05/column-panorama-860x350.jpg",
         "body" : {
-          caption: "Oregon Coast Sunset"
+          "caption": "Oregon Coast Sunset"
         }
       },
       {
-        "url":
+        "url": "http://astoriacolumn.org/wp-content/uploads/2014/05/column-panorama-860x350.jpg",
         "body" : {
-          caption: "International Rose Test Garden"
+          "caption": "International Rose Test Garden"
         }
       },
       {
-        "url":
+        "url": "http://astoriacolumn.org/wp-content/uploads/2014/05/column-panorama-860x350.jpg",
         "body" : {
-          caption: "Pittock Mansion"
+          "caption": "Pittock Mansion"
         }
       },
     ]
@@ -63,13 +63,13 @@
     "name": "Norway",
     "notes": [
       {
-        "url":
+        "url": "http://astoriacolumn.org/wp-content/uploads/2014/05/column-panorama-860x350.jpg",
         "body": {
           "caption": "Kongsberg, Norway"
         }
       },
       {
-        "url":
+        "url": "http://astoriacolumn.org/wp-content/uploads/2014/05/column-panorama-860x350.jpg",
         "body": {
           "caption": "Street in Norway"
         }
@@ -81,18 +81,18 @@
     "name": "Sports Photos",
     "notes": [
       {
-        "url":
+        "url": "http://astoriacolumn.org/wp-content/uploads/2014/05/column-panorama-860x350.jpg",
         "body": {
           "caption": "Beavers vs. Boise State Staium shot"
       },
       {
-        "url": 
+        "url": "http://astoriacolumn.org/wp-content/uploads/2014/05/column-panorama-860x350.jpg",
         "body": {
           "caption": "Seahawks vs. Bears 2015"
         }
       },
       {
-        "url":
+        "url": "http://astoriacolumn.org/wp-content/uploads/2014/05/column-panorama-860x350.jpg",
         "body": {
           "caption": "Portland Trailblazers game"
       }

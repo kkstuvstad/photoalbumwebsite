@@ -1,0 +1,11 @@
+//Generates and creates structure for each sticky note using handlebars
+<section class="pic">
+  <h2>{{url}}</h2>
+  <div class="pic-body">
+  {{#if body}}
+      {{#if body.caption}}
+        <p class="indent-wrapped"><span class="caption">caption: </span>{{body.caption}}</p>
+      {{/if}}
+  {{/if}}
+  </div>
+</section>

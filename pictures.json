@@ -1,0 +1,101 @@
+{
+  "losangeles": {
+    "name": "Los Angeles",
+    "notes": [
+      {
+        "url":
+        "body": {
+          "caption": "Long Beach, CA"
+        }
+      },
+      {
+        "url":
+        "body": {
+          "caption": "Santa Monica Pier"
+        }
+      },
+      {
+        "url":
+        "body" : {
+          caption: "Pacific Park Ferris Wheel"
+        }
+      },
+    ]
+  },
+
+  "oregon": {
+    "name": "Oregon",
+    "notes": [
+      {
+        "url":
+        "body" : {
+          caption: "Multnomah Falls"
+        }
+      },
+      {
+        "url":
+        "body" : {
+          caption: "Astoria, Oregon"
+        }
+      },
+      {
+        "url":
+        "body" : {
+          caption: "Oregon Coast Sunset"
+        }
+      },
+      {
+        "url":
+        "body" : {
+          caption: "International Rose Test Garden"
+        }
+      },
+      {
+        "url":
+        "body" : {
+          caption: "Pittock Mansion"
+        }
+      },
+    ]
+  },
+
+  "norway": {
+    "name": "Norway",
+    "notes": [
+      {
+        "url":
+        "body": {
+          "caption": "Kongsberg, Norway"
+        }
+      },
+      {
+        "url":
+        "body": {
+          "caption": "Street in Norway"
+        }
+      }
+    ]
+  },
+
+  "sports": {
+    "name": "Sports Photos",
+    "notes": [
+      {
+        "url":
+        "body": {
+          "caption": "Beavers vs. Boise State Staium shot"
+      },
+      {
+        "url": 
+        "body": {
+          "caption": "Seahawks vs. Bears 2015"
+        }
+      },
+      {
+        "url":
+        "body": {
+          "caption": "Portland Trailblazers game"
+      }
+    ]
+  }
+}

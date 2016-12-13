@@ -19,7 +19,7 @@ app.listen(port, function () {
 
 //Displays home page
 app.get('/', function (req, res) {
-  res.render('index-page', {
+  res.render('main-page', {
     pageTitle: 'Welcome!',
     photoData: photoData
   });
@@ -28,10 +28,10 @@ app.get('/', function (req, res) {
 //Displays list of sticky notes for each person from drop-down menu
  app.get('/photos/:location', function (req, res, next) {
 
-   var location = req.params.user;
-   var place = usersData[location];
+   var location = req.params.place;
+   var place = photoData[location];
 
-   if (user) {
+   if (place) {
      res.render('photos-page', {
        pageTitle: 'ToDoIt - ' + location,
        photoName: location.place,

@@ -1,0 +1,14 @@
+<div class="photo-select-container">
+  <select id="user-select">
+    <ul>
+        <li>losangeles</li>
+        <li>oregon</li>
+        <li>norway</li>
+        <li>sports</li>
+    </ul>
+    <option value="" disabled selected>Select a category</option>
+      {{#each photoData}}
+      <option value="{{@key}}">{{location}}</option>
+      {{/each}}
+  </select>
+</div>

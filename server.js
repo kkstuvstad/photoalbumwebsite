@@ -33,7 +33,7 @@ app.get('/', function (req, res) {
 
    if (place) {
      res.render('photos-page', {
-       pageTitle: 'ToDoIt - ' + location,
+       pageTitle: 'Location: ' + location,
        photoName: location.place,
        photos: location.photos
      });
@@ -45,7 +45,8 @@ app.get('/', function (req, res) {
 
 // Displays 404 error message
 app.get('*', function(req, res) {
-  res.status(404).render('404-page', {
+  res.status(404).render('error-page', {
     pageTitle: '404'
   });
 });
+

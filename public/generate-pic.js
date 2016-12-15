@@ -1,9 +1,12 @@
 var todoTemplate = Handlebars.templates.todo;
 
-function generateTodoHTML(caption) {
+function generateTodoHTML(url, body, caption) {
   var newPic = {
-    caption: caption
+    url: url,
+    body: {
+      caption: caption
+    }
   }
 
-  return todoTemplate(newNote);
+  return todoTemplate(newPic);
 }

@@ -11,7 +11,7 @@ function removeTodoOnDelegatedDismissClick(event) {
    * If the clicked element is the dismiss button of a todo note, then remove
    * the todo from its parent.
    */
-  if (clickedElem.classList.contains('dismiss-button') && clickedElemParent.classList.contains('todo')) {
+  if (clickedElem.classList.contains('dismiss-button') && clickedElemParent.classList.contains('pic')) {
     var todoNoteElemParent = clickedElemParent.parentNode;
     todoNoteElemParent.removeChild(clickedElemParent);
   }
@@ -111,7 +111,7 @@ function handleUserSelection(event) {
   var userSelection = event.target.value;
 
   if (userSelection) {
-    window.location.href = '/notes/' + userSelection;
+    window.location.href = '/photos/' + userSelection;
   }
 
 }
@@ -145,7 +145,7 @@ window.addEventListener('DOMContentLoaded', function (event) {
     modalAcceptButton.addEventListener('click', insertNewTodo);
   }
 
-  var userSelect = document.getElementById('user-select');
+  var userSelect = document.getElementById('location-select');
   if (userSelect) {
     userSelect.addEventListener('change', handleUserSelection);
   }
